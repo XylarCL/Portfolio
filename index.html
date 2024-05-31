@@ -5,10 +5,20 @@
         <link rel="icon" href="images/cosmereLogo.png">
         <link rel="stylesheet" href="style.css">
         <link rel="script" href = "script.js">
+        <script 
+            src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+            crossorigin="anonymous">
+        </script>
+        <script>
+            $(function(){
+                $('#header').load("header.html");
+            })
+        </script>
     </head>
     <body>
         <header>
-            <iframe src="header.html" frameborder="0" scrolling="no"></iframe>
+            <div id="header"></div>
         </header>
         <main>
 
