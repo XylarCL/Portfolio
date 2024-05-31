@@ -1,0 +1,11 @@
+
+.header li{
+    display: block;
+    float: right;
+    margin: 10px;
+}
+
+.header ul{
+    list-style-type: none;
+    display: block;
+}
