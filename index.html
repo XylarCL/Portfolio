@@ -5,24 +5,59 @@
         <link rel="icon" href="images/cosmereLogo.png">
         <link rel="stylesheet" href="style.css">
         <link rel="script" href = "script.js">
-        <script 
+<!--         <script 
             src="https://code.jquery.com/jquery-3.7.1.min.js"
             integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
             crossorigin="anonymous">
         </script>
         <script>
             $(function(){
-                $('#header').load("header.html");
+                $('.header').load("header.html");
             })
-        </script>
+        </script> -->
     </head>
     <body>
-        <header>
-            <div id="header"></div>
-        </header>
-        <main>
+        <div class="header">
+            <ul>
+                <li>
+                    <a href = index.html>Home</a>
+                </li>
+                <li>
+                    <a href = aboutMe.html>About Me</a>
+                </li>
+                <li>
+                    <a href = contact.html>Projects</a>
+                </li>
+                <li>
+                    <a href = projects.html>Contact</a>
+                </li>
+            </ul>
+        </div>
+        <section class="hero">
+            <h1>
+                Hello, I'm Christian
+            </h1>
+            <img src="images/cat.jpeg" alt="Profile Picture" height="200" width="200">
+        </section>
+        <section class="aboutMe">
+            <h1>About Me</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque sed amet veniam reprehenderit exercitationem animi. Necessitatibus reiciendis, error quo quasi esse, nobis eos at explicabo id quam perferendis rerum quae!
+                Aspernatur inventore, quisquam nostrum sapiente recusandae ab. Vitae nihil, minus laboriosam assumenda magni nostrum eveniet libero quo odio, laudantium non! Voluptatum consequuntur magni consequatur perferendis tenetur veniam voluptate, nesciunt molestias?
+            </p>
+            <img src="images/cat2.jpeg" alt="A picture of me" height="200" width="200">
+        </section>
+        <section class="projects">
 
-        </main>
+        </section>
+        <section class="contactMe">
+            <h1>Contact Me</h1>
+            <form action="submit">
+                <input type="text" name="contactName" id="contactName" placeholder="Name">
+                <input type="text" name="contactEmail" id="contactEmail" placeholder="Email">
+                <textarea name="contactMessage" id="contactMessage" placeholder="Message"></textarea>   
+            </form>
+        </section>
         <footer>
 
         </footer>
